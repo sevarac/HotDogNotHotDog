@@ -13,6 +13,7 @@ import java.util.Map;
 
 /**
  * Example how to use the trained hot dog image classifier in Java using VisRec API JSR381
+ * See TrainHotDogClassifier for how to train hot dog classifier.
  *
  * Scene from TV show Silicon Valley https://www.youtube.com/watch?v=vIci3C4JkL0
  * Data set: https://www.kaggle.com/datasets/dansbecker/hot-dog-not-hot-dog
@@ -30,11 +31,11 @@ public class UseTrainedHotDogClassifier {
         ImageClassifier<BufferedImage> classifier = new ImageClassifierNetwork(convNet);
 
         // load image to classify
-        BufferedImage image = ImageIO.read(new File("src/main/resources/pizza.jpg"));
+        BufferedImage image = ImageIO.read(new File("src/main/resources/hot_dog.jpg"));
         // feed image into a classifier to recognize it
         Map<String, Float> results = classifier.classify(image);
 
-        // interpret the classification result / probability
+        // interpret the classification result / class probability
         float hotDogProbability = results.get("hot_dog");
         if (hotDogProbability > 0.5) {
             System.out.println("There is a high probability that this is a hot dog");

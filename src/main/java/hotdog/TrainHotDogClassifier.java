@@ -13,12 +13,14 @@ import java.util.Map;
 
 /**
  * Example how to train the hot dog image classifier in Java using VisRec API JSR381
+ * See UseTrainedHotDogClassifier for how to use trained hot dog classifier.
  *
  * Scene from TV show Silicon Valley https://www.youtube.com/watch?v=vIci3C4JkL0
  * Data set: https://www.kaggle.com/datasets/dansbecker/hot-dog-not-hot-dog
  *
  * Visual Recognition API JSR381 https://jcp.org/en/jsr/detail?id=381
  * JSR project on GitHub https://github.com/JavaVisRec
+ *
  */
 public class TrainHotDogClassifier {
 
