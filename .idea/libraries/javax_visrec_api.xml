@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="javax.visrec.api" type="repository">
+    <properties maven-id="javax.visrec:visrec-api:1.0.5" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/visrec-api-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/visrec-api-1.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/visrec-api-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

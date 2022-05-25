@@ -1,0 +1,12 @@
+[ERROR] 2022-05-25 10:03:43.988 [main] DeepNetts - Could not find labels file: C:\Users\Zoran\IdeaProjects\HotDogNotHotDog\images\train\labels.txt
+java.io.FileNotFoundException: images\train\labels.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_151]
+	at java.io.FileReader.<init>(FileReader.java:72) ~[?:1.8.0_151]
+	at deepnetts.data.ImageSet.loadLabels(ImageSet.java:421) [deepnetts-core-1.13.2.jar:?]
+	at javax.visrec.ri.spi.BufferedImageClassifierFactory.onCreate(BufferedImageClassifierFactory.java:53) [visrec-ri-1.0.3.jar:?]
+	at javax.visrec.ri.spi.BufferedImageClassifierFactory.create(BufferedImageClassifierFactory.java:36) [visrec-ri-1.0.3.jar:?]
+	at javax.visrec.spi.ClassifierFactoryService.createNeuralNetImageClassifier(ClassifierFactoryService.java:54) [visrec-api-1.0.5.jar:?]
+	at javax.visrec.ml.classification.NeuralNetImageClassifier$Builder.build(NeuralNetImageClassifier.java:177) [visrec-api-1.0.5.jar:?]
+	at hotdog.TrainHotDogClassifier.main(TrainHotDogClassifier.java:39) [classes/:?]
