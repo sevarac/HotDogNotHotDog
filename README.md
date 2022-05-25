@@ -7,9 +7,10 @@ After cloning the project,
 3. Rename the 'not_hot_dog' folder to 'negative'
 
  
+## More info  
+
 * For funny tutorial about image classification see scene from TV show Silicon Valley https://www.youtube.com/watch?v=vIci3C4JkL0
 * Data set: https://www.kaggle.com/datasets/dansbecker/hot-dog-not-hot-dog
-
 * Visual Recognition API JSR381 https://jcp.org/en/jsr/detail?id=381
 * JSR project on GitHub https://github.com/JavaVisRec
 
