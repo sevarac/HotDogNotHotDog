@@ -29,8 +29,8 @@ public class TrainHotDogClassifier {
 			ImageClassifier<BufferedImage> classifier =
 					NeuralNetImageClassifier.builder()
 							.inputClass(BufferedImage.class) // input class for classifier
-							.imageWidth(128) // width of the input image
-							.imageHeight(128) // height of the input image
+							.imageWidth(64) // width of the input image
+							.imageHeight(64) // height of the input image
 							.labelsFile(Paths.get("images/labels.txt"))// list of image labels
 							.trainingFile(Paths.get("images/index.txt")) // index of images with corresponding labels
 							.networkArchitecture(Paths.get("src/main/resources/hot_dog.json"))// architecture of the convolutional neural network in json
